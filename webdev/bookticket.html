@@ -1,0 +1,174 @@
+<html>
+    <head>  
+        <title></title>
+        <link rel="stylesheet" href="layout.css">
+        <link rel="stylesheet" href= "https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <header>
+            <h1 class = "heading"> GREEN PARK</h1>
+            <logo>
+            </logo>
+            <div class = "nav">
+                <ul>
+                   <li><a href="index.html" = "GreenPark"class="active">Home</a></li>
+                    <li><a href="listoffood.html" = "GreenPark Food">Activities</a></li>
+                    <li><a href="listofrides.html"="GreenPark">Info</a></li>
+                    <li><a href="howtogethere.html"="GreenPark">Location</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section class = "body2">
+                <h1>Green Park ~ Tickets</h1><br>
+                <h1>ORDER TICKETS<h1>
+				<form>
+					<table style="width:600px; border:3px; border-style:solid; border-color:#000000; padding: 1em;">
+						<tr>
+							<td>
+								<label style="font-size: 20px;" for="Type of Ticket"> 
+									Type of Ticket
+								</label>
+							</td>
+							<td>
+								<select style="width: 242px; padding: 6px; border-radius: 5px;" name="tickets" maxlength="50" id="Type_of_ticket">
+									<option value=""></option>
+									<option style="font-size: 17px;" value="VIP">VIP (£100)</option> 
+									<option style="font-size: 17px;" value="Regular">Regular (£35)</option>
+								</select>	
+							</td>
+						</tr>
+                        
+                        <tr>
+                        <td>
+                            <label style="font-size: 20px;" for="Type of Ticket"> 
+									Date
+								</label>
+                        </td>
+                        <td>
+                                <input type = "datetime-local"> 
+                            </td>
+                        </tr>
+						<tr>
+							<td colspan="2">
+								<hr style="background: black; height: 2px;">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>DETAILS</h4>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label  style="font-size: 20px;" for="first_name"> 
+									First Name
+								</label>
+							</td>
+							<td>
+								<input style="padding: 6px 0px; border-radius: 5px;" maxlength="50" size="30" height="30" type="text" name="first_name" id="first_name"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label style="font-size: 20px;" for="last_name">Last Name</label>
+							</td>
+							<td>
+								<input style="padding: 6px 0px; border-radius: 5px;" maxlength="50" size="30"type="text" name="last_name" id="last_name"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label style="font-size: 20px;" for="email">Email Address</label>
+							</td>
+							<td>
+								<input style="padding: 6px 0px; border-radius: 5px;" maxlength="80" size="30" type="text" name="email" id="Email"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label style="font-size: 20px;"for="telephone">Telephone Number</label>
+							</td>
+							<td>
+								<input style="padding: 6px 0px; border-radius: 5px;" maxlength="30" size="30" type="text" name="telephone" id="telephone";/>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<hr style="background: black; height: 2px;">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>PAYMENT METHOD</h4> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label style="font-size:20px; for="Card number">Card Number</label
+							</td>
+							<td>
+								<input style="padding: 6px 0px; border-radius: 5px;" maxlength="30" size="30" type="text" name="Card_Number" id="Card_Number";/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label style="font-size: 20px; for="Card name">Card Name</label>
+							</td>
+							<td>
+								<input style="padding: 6px 0px; border-radius: 5px;" maxlength="30" size="30" type="text" name="Card_Name" id="Card_Name";/>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<input style="background:black; color:white; padding: 25px; font-size: 23px;
+								border-radius: 8px; float: centre-right; margin: 0px 60%;" type="button" value="BUY NOW" id="submit"/>
+							</td>
+						</tr>
+					</table>
+                </form>
+                    <p id="summary">
+                    </p>
+            </section>
+        </main>
+        <footer>
+            <section class = "sponsors">
+                <h3>SPONSORS</h3>
+                <img src="img/sponsor1.jpg">    
+                <img src="img/sponsor2.png"><br> <br><br>
+                <img src="img/sponsor3.jpg">    
+                <img src="img/sponsor4.jpg">
+            </section>
+            <section class = "logo">
+                <img src="img/logo.png">
+                <br>
+                ©2017 Green Park Limited,
+                all rights reserverd.<br>
+                Design: Ozydesigns.co.uk<br>
+                @copyright 2017, all rights reserved.<br>
+            </section>
+            
+            <section class= "contact">
+                <h4>Location Address</h4>
+                <p>4 Amersham Vale,<br>
+                    New Cross,<br>
+                    London<br>
+                    SE14 6LD</p>
+                <h4>Contact us</h4>
+                <p>Email: greenpark@gmail.com<br>
+                    Tel: 0743525322/ 0223479237
+                </p>
+            </section>
+        </footer>
+                
+        <script>
+            document.getElementById("submit").onclick = function(){printTicket()};
+            
+            function printTicket()
+            {
+                document.getElementById("summary");
+                window.alert("hello"+first_name);
+            }
+        </script>
+    </body>
+</html>

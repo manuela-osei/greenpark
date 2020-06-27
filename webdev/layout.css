@@ -1,0 +1,268 @@
+body
+{
+    background:url(img/park12.jpeg);
+    background-color: papayawhip;
+    color: black;
+    text-align: centre;
+    overflow: auto;
+}
+
+/*body for home page*/
+.index
+{
+    background-color: papayawhip;
+    color: black;
+    text-align: centre;
+    background: url(img/greenpark1.jpeg);
+    background-size:cover;
+    overflow: auto;
+}
+
+.heading
+{
+    color: green;
+    font-family: "Stencil Std";
+    font-style: fantasy; 
+    font-size:70px;
+    font-weight: bold;
+    margin-top:30px;
+    margin-left: 30px;
+}
+
+/*navigation for home page*/
+.nav{
+    width: 100%;
+    background: #000033;
+    height:120px;
+    margin-top:10px;
+    opacity: 0.7;   
+}
+
+.nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;  
+}
+.nav ul li
+{
+    float:left; 
+    margin-top: 40px;
+    margin-left: 70px
+}
+
+.nav ul li a
+{
+    width: 150px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: Century Gothic;
+    font-weight: bold;
+}
+
+.nav ul li a:hover 
+{
+    background: #669900;
+     transition: 0.6s;
+}
+
+.body1 
+{
+    float:left;
+    background: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    width:60%;
+    padding: 40px;
+    height:100%;
+    min-height: 100%;
+}
+
+.body1 h1
+{
+    text-align: centre;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.body2 
+{
+    float:left;
+    background: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 55%;
+    padding: 40px;
+}
+
+.body2 h1
+{
+    text-align: centre;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.sider1
+{
+    float:left;
+    background: white;
+    width:25%;
+    padding: 25px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.sider1 h2
+{
+  color:green;
+  font-weight: bold;
+  text-align: centre;
+}
+
+.sider1 a:link
+{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.sider1 a h1:hover 
+{
+    color: rebeccapurple;
+    /*background-color: transparent;*/
+    text-decoration: none;
+}
+
+.sider2 h1
+{
+    color:darkgreen;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sider2
+{
+    float:left;
+    background: white;
+    width:35%;
+    padding: 25px;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.sider2 a:link
+{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.sider2 a h1:hover 
+{
+    color: rebeccapurple;
+    /*background-color: transparent;*/
+    text-decoration: none;
+}
+
+.sider3
+{
+    float:left;
+    background: white;
+    width:35%;
+    padding: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.sider3 h1
+{
+    color:darkgreen;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sider3 a:link 
+{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.sider3 a h1:hover 
+{
+    color: rebeccapurple;
+    /*background-color: transparent;*/
+    text-decoration: none;
+}
+
+.sider4 h1
+{
+    color:darkgreen;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sider4
+{
+    float:left;
+    background: white;
+    width:35%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+footer
+{
+    background-color: green;
+    position:relative;
+    height: 300px;
+    margin-top: -100px;
+    clear:both;
+    padding:25px;
+}
+
+.sponsors
+{
+    float:left;
+    margin-left: 5%;
+}
+
+.sponsors h3
+{
+    margin-left: 20px;
+    font-weight: bold;
+    color:white;
+}
+
+.sponsors img
+{
+    height:40px;
+    width:60px;
+    margin-left: 20px;
+}
+
+.logo{
+    float:left;
+    margin-left: 10%;
+    color:white;
+}
+
+.logo img
+{
+    height: 170px;
+    width:300px;
+}
+
+.contact
+{
+   float:left; 
+   margin-left: 10%;
+   color:white;
+}
